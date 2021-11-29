@@ -47,7 +47,78 @@
     }
 
     #lezioni h3{
-        display: inline+;
+        display: inline;
     }
     
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Steps */
+@media screen and (max-width: 420px){
+    
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right,
+    h1{
+        float: none;
+        margin: 0;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        max-width: 100vw;
+        flex-wrap: wrap;
+        background-color: rgb(255,255,255);
+    }
+
+    #steps div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 100%;
+    }
+
+    #steps img{
+        max-width: 100%;
+    }
+
+    #steps h3{
+        display: inline;
+    }
+}
+
+/* Why */
+
+@media screen and (max-width: 420px){
+    
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third,
+    h1{
+        float: none;
+        margin: 0;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        max-width: 100vw;
+        flex-wrap: wrap;
+        background-color: rgb(242,242,205);
+    }
+
+    #why div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 100%;
+    }
+
+    #why img{
+        max-width: 100%;
+    }
+
+    #why h3{
+        display: inline;
+    }
 }
